@@ -1,0 +1,179 @@
+:root {
+	font-family: "museomoderno";
+}
+
+body {
+	font-family: mulish;
+	font-size: 1.2rem;
+	max-width: 100vw;
+	line-height: 100%;
+	}
+
+h1 {
+	font-family: "museomoderno";
+	font-size: 3.75rem;
+	text-align: left;
+	font-weight: bold;
+	line-height: 100%;
+	color: var(--brand-color)
+}
+
+h2 {
+	font-family: "museomoderno";
+	font-size: 2rem;
+	font-weight: 600;
+	color: #10BFD3;
+	padding: 1%;
+}
+
+h3 {
+	text-align: center;
+	font-size: 1rem;
+	margin: 40px;
+	font-weight: 600;
+	}
+
+header {
+	padding-left:center;
+	padding-bottom: 50px;
+	color: var(--brand-color);
+		}
+p {
+	line-height: 160%;
+	padding-top: 15px;
+	max-width: 50ch;
+	}
+
+p.authorname {
+	font-size: 1.5 rem;
+	padding-top: 15px;
+	}
+
+p.date {
+	font-size: 1rem;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	}
+
+.intro {
+	padding-top: 1rem;
+	max-width: 50vw;
+	padding-top: 5%;
+
+}
+
+.profile {
+	margin: auto;
+
+}
+
+section {
+	padding: center;
+
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 10%;
+
+}
+
+.number {
+	font-family: "museomoderno";
+	font-size: 10rem;
+	max-width: 50vw;
+	font-weight: 600;
+	margin-top: 1%;
+	margin: auto;
+	}
+
+div.footercontent {
+	margin-top: -20px;
+	margin-bottom: -20px;
+
+}
+
+.profile-content {
+	font-size: 1.5rem;
+	padding-top: 24px;
+	line-height: 100%;
+
+}
+
+.author-item-1 p, .author-item-2 p {
+	font-size: 1.125rem;
+
+}
+
+@media only screen and (max-width: 375px) {
+	body {
+		font-size: 1rem;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+
+	}
+
+	h3 {
+		font-size: 0.875rem;
+
+	}
+
+	.author-item-1, .author-item-2 {
+		font-size: 2.5rem;
+
+	}
+}
+@media only screen and (min: width 1280px;) {
+	body {
+		font-size: 1.125rem;
+
+	}
+	 h1 {
+		font-size: 5rem;
+
+	 }
+
+	 h3 {
+		font-size: 1rem;
+
+	 }
+
+	 header p {
+		font-size: 1.125rem;
+	 }
+
+	 .author-item-1, .author-item-2 {
+		font-size: 3.75rem;
+
+	 }
+}
+
+@media print {
+	body {
+		font-size: 1.125rem;
+			}
+	header, footer {
+		display: none;
+		}
+    h1 {
+		font-size: 5rem;	
+	}
+
+	h3 {
+		font-size: 1rem;
+
+	}
+	.author-item-1, .author-item-2 {
+		font-size: 3.75rem;
+
+	}
+
+	section {
+		padding: 2%;
+
+	}
+}
+}}
